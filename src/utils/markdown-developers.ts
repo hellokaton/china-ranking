@@ -32,4 +32,5 @@ export const markdownDevelopers = [
   "MisterBooo",
   "ityouknow",
   "dyc87112",
+  "lidangzzz"
 ];
