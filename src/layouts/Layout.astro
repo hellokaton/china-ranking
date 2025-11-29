@@ -10,8 +10,8 @@ interface Props {
 const { title = "中国区 GitHub 用户排行榜" } = Astro.props;
 
 // Rybbit 配置
-const rybbitSiteId = import.meta.env.RYBBIT_SITE_ID;
-const rybbitHost = import.meta.env.RYBBIT_HOST || "https://app.rybbit.io";
+const rybbitSiteId = import.meta.env.PUBLIC_RYBBIT_SITE_ID;
+const rybbitHost = import.meta.env.PUBLIC_RYBBIT_HOST || "https://app.rybbit.io";
 const rybbitScriptSrc = `${rybbitHost}/api/script.js`;
 ---
 
