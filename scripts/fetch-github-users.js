@@ -21,6 +21,7 @@ const organizationsToFilter = [
   "apache",
   "microsoft",
   "oschina",
+  "tshemsedinov" // 非中国
   // 添加更多需要过滤的组织
 ];
 
