@@ -1,0 +1,71 @@
+---
+const { defaultSort = "followers" } = Astro.props;
+---
+
+<div class="sort-bar mb-0 w-full flex flex-wrap items-center gap-3 bg-vscode-darker px-4 py-3 border border-vscode-line border-t-0 border-b rounded-none" data-default-sort={defaultSort}>
+  <span class="text-xs text-vscode-comment font-mono">排序方式</span>
+  <div class="inline-flex rounded-md border border-vscode-line overflow-hidden shadow-code">
+    <button
+      type="button"
+      class="sort-button px-4 py-2 text-xs font-mono bg-vscode-bg text-vscode-text border-r border-vscode-line transition-colors"
+      data-sort="followers"
+    >
+      按关注
+    </button>
+    <button
+      type="button"
+      class="sort-button px-4 py-2 text-xs font-mono bg-vscode-bg text-vscode-text transition-colors"
+      data-sort="stars"
+    >
+      按星星
+    </button>
+  </div>
+</div>
+
+<script>
+  const ACTIVE = ["bg-vscode-function", "text-vscode-bg", "border-vscode-function"];
+  const INACTIVE = ["bg-vscode-bg", "text-vscode-text", "border-vscode-line"];
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const buttons = Array.from(document.querySelectorAll(".sort-button"));
+    const grid = document.querySelector(".ranking-grid");
+    if (!grid || buttons.length === 0) return;
+
+    const cards = Array.from(grid.querySelectorAll(".user-card"));
+
+    const setActive = (key) => {
+      buttons.forEach((btn) => {
+        const active = btn.dataset.sort === key;
+        ACTIVE.forEach((c) => btn.classList.toggle(c, active));
+        INACTIVE.forEach((c) => btn.classList.toggle(c, !active));
+      });
+    };
+
+    const sortAndRender = (key) => {
+      const sorted = [...cards].sort((a, b) => {
+        const aVal = Number(a.dataset[key] || 0);
+        const bVal = Number(b.dataset[key] || 0);
+        if (bVal !== aVal) return bVal - aVal;
+        const aFollowers = Number(a.dataset.followers || 0);
+        const bFollowers = Number(b.dataset.followers || 0);
+        if (bFollowers !== aFollowers) return bFollowers - aFollowers;
+        return (a.dataset.login || "").localeCompare(b.dataset.login || "");
+      });
+
+      sorted.forEach((card, idx) => {
+        const rankEl = card.querySelector(".user-rank");
+        if (rankEl) rankEl.textContent = String(idx + 1);
+        grid.appendChild(card);
+      });
+
+      setActive(key);
+    };
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => sortAndRender(btn.dataset.sort || "followers"));
+    });
+
+    const defaultKey = document.querySelector(".sort-bar")?.dataset.defaultSort === "stars" ? "stars" : "followers";
+    sortAndRender(defaultKey);
+  });
+</script>
