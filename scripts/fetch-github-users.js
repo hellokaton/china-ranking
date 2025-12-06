@@ -114,6 +114,47 @@ async function rateLimitedRequest(requestFn, maxRetries = 3) {
   }
 }
 
+// 计算用户公开仓库的总 star 数
+async function fetchUserStars(username) {
+  const perPage = 100;
+  let page = 1;
+  let stars = 0;
+
+  try {
+    while (true) {
+      const repoResponse = await rateLimitedRequest(async () => {
+        return await octokit.rest.repos.listForUser({
+          username,
+          per_page: perPage,
+          page,
+          sort: "updated",
+          direction: "desc",
+          type: "owner",
+        });
+      });
+
+      const repos = repoResponse.data || [];
+      stars += repos.reduce(
+        (sum, repo) => sum + (repo.stargazers_count || 0),
+        0
+      );
+
+      // 少于一页，说明已拿到全部仓库
+      if (repos.length < perPage) {
+        break;
+      }
+
+      page++;
+      // 轻微延迟，降低速率限制风险
+      await new Promise((resolve) => setTimeout(resolve, 500));
+    }
+  } catch (error) {
+    console.error(`获取 ${username} 总 star 数失败:`, error.message);
+  }
+
+  return stars;
+}
+
 async function fetchTopChineseUsers() {
   try {
     // 检查初始 API 限流状态
@@ -288,6 +329,7 @@ async function fetchTopChineseUsers() {
               avatar_url: userData.avatar_url,
               html_url: userData.html_url,
               followers: userData.followers,
+              stars: await fetchUserStars(user.login),
               public_repos: userData.public_repos,
               bio: userData.bio,
               location: userData.location,

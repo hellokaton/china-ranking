@@ -6,6 +6,7 @@ export interface Props {
     avatar_url: string;
     html_url: string;
     followers: number;
+    stars: number;
     public_repos: number;
     bio?: string;
     location?: string;
@@ -31,7 +32,9 @@ const blogUrl = user.blog
 
 <div class="bg-vscode-lighter rounded-lg border border-vscode-line shadow-code p-5 relative user-card"
   data-login={user.login}
-  data-name={user.name || ''}>
+  data-name={user.name || ''}
+  data-stars={user.stars}
+  data-followers={user.followers}>
   <!-- VSCode 窗口装饰 -->
   <div class="absolute top-0 left-0 right-0 h-6 bg-vscode-darker border-b border-vscode-line flex items-center px-3 rounded-t-lg window-controls">
     <div class="flex space-x-2">
@@ -82,8 +85,12 @@ const blogUrl = user.blog
     </div>
 
     <!-- 统计数据 -->
-    <div class="mt-3 flex gap-3 stats-container">
-      <div class="bg-vscode-darker py-2 px-4 rounded-md text-center flex-1 border border-vscode-line font-mono stat-item">
+    <div class="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3 stats-container">
+      <div class="bg-vscode-darker py-2 px-4 rounded-md text-center border border-vscode-line font-mono stat-item">
+        <div class="text-lg font-bold text-vscode-number stat-value">{user.stars.toLocaleString()}</div>
+        <div class="text-xs text-vscode-comment stat-label">星星数</div>
+      </div>
+      <div class="bg-vscode-darker py-2 px-4 rounded-md text-center border border-vscode-line font-mono stat-item">
         <div class="text-lg font-bold text-vscode-number stat-value">{user.followers.toLocaleString()}</div>
         <div class="text-xs text-vscode-comment stat-label">关注者</div>
       </div>

@@ -7,6 +7,7 @@ export interface GitHubUser {
   avatar_url: string;
   html_url: string;
   followers: number;
+  stars: number;
   public_repos: number;
   bio?: string;
   location?: string;

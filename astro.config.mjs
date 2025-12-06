@@ -4,7 +4,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  // site: "http://localhost:4321",
-  site: "https://china-ranking.32k.site",
+  site: process.env.SITE || "https://china-ranking.32k.site",
   integrations: [tailwind()],
 });
