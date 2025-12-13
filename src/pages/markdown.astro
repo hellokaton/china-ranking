@@ -3,6 +3,7 @@ import Layout from '@/layouts/Layout.astro';
 import RankingTabs from '@/components/RankingTabs.astro';
 import UserCard from '@/components/UserCard.astro';
 import SearchBar from '@/components/SearchBar.astro';
+import SortControls from '@/components/SortControls.astro';
 import { getRankingData } from '@/utils/data';
 
 // 获取数据
@@ -35,6 +36,8 @@ const formattedUpdateTime = formatUpdateTime(updateTime);
         <span class="text-vscode-function">最后更新：</span>{formattedUpdateTime}
       </p>
       <RankingTabs activeTab="markdown" />
+
+      <SortControls defaultSort="followers" />
 
       <div class="search-bar-container">
         <SearchBar initialQuery="" />
