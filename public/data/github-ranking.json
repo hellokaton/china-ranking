@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-09-14T22:25:36.654Z",
+  "updateTime": "2026-09-15T02:02:37.286Z",
   "developers": [
     {
       "login": "GeekZooStudio",
@@ -461,7 +461,7 @@
       "name": "Netcan",
       "avatar_url": "https://avatars.githubusercontent.com/u/11377070?v=4",
       "html_url": "https://github.com/netcan",
-      "followers": 967,
+      "followers": 968,
       "public_repos": 80,
       "bio": "机工社《C++20高级编程》作者",
       "location": "Shanghai, China",
@@ -643,7 +643,7 @@
       "name": "陈小缘",
       "avatar_url": "https://avatars.githubusercontent.com/u/9758478?v=4",
       "html_url": "https://github.com/wuyr",
-      "followers": 939,
+      "followers": 940,
       "public_repos": 26,
       "bio": null,
       "location": "Zhaoqing, Guangdong, China",
@@ -955,7 +955,7 @@
       "name": "Yuxiang Lin",
       "avatar_url": "https://avatars.githubusercontent.com/u/87774050?v=4",
       "html_url": "https://github.com/Lum1104",
-      "followers": 910,
+      "followers": 911,
       "public_repos": 45,
       "bio": "Looking for a PhD in 2027, AI Agent & ML",
       "location": "Shenzhen, China",
@@ -990,19 +990,6 @@
       "company": null
     },
     {
-      "login": "iccfish",
-      "name": "iFish",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1091653?v=4",
-      "html_url": "https://github.com/iccfish",
-      "followers": 904,
-      "public_repos": 54,
-      "bio": "喵φ(>ω<*)\r\n汪 ( • ̀ω•́ )✧",
-      "location": "China",
-      "twitter_username": null,
-      "blog": "https://blog.iccfish.com/",
-      "company": null
-    },
-    {
       "login": "isnowfy",
       "name": "Rui Wang",
       "avatar_url": "https://avatars.githubusercontent.com/u/596274?v=4",
@@ -1013,6 +1000,19 @@
       "location": "China",
       "twitter_username": null,
       "blog": "www.isnowfy.com",
+      "company": null
+    },
+    {
+      "login": "iccfish",
+      "name": "iFish",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1091653?v=4",
+      "html_url": "https://github.com/iccfish",
+      "followers": 904,
+      "public_repos": 54,
+      "bio": "喵φ(>ω<*)\r\n汪 ( • ̀ω•́ )✧",
+      "location": "China",
+      "twitter_username": null,
+      "blog": "https://blog.iccfish.com/",
       "company": null
     },
     {
@@ -1027,6 +1027,19 @@
       "twitter_username": null,
       "blog": "lawlite.me",
       "company": "Southeast University"
+    },
+    {
+      "login": "aviraxp",
+      "name": "Wang Han",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18079988?v=4",
+      "html_url": "https://github.com/aviraxp",
+      "followers": 900,
+      "public_repos": 27,
+      "bio": "Fulltime banker, amateur developer",
+      "location": "Beijing, China",
+      "twitter_username": null,
+      "blog": "",
+      "company": "China Construction Bank"
     },
     {
       "login": "jenly1314",
@@ -1053,19 +1066,6 @@
       "twitter_username": null,
       "blog": "",
       "company": null
-    },
-    {
-      "login": "aviraxp",
-      "name": "Wang Han",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18079988?v=4",
-      "html_url": "https://github.com/aviraxp",
-      "followers": 899,
-      "public_repos": 27,
-      "bio": "Fulltime banker, amateur developer",
-      "location": "Beijing, China",
-      "twitter_username": null,
-      "blog": "",
-      "company": "China Construction Bank"
     },
     {
       "login": "wondertrader",
@@ -2849,19 +2849,6 @@
       "company": "Jilin University"
     },
     {
-      "login": "cpuimage",
-      "name": "gaozhihan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25237152?v=4",
-      "html_url": "https://github.com/cpuimage",
-      "followers": 715,
-      "public_repos": 99,
-      "bio": "bathing in light like a tree.",
-      "location": "HangZhou, China",
-      "twitter_username": null,
-      "blog": "https://t.me/cpuimage",
-      "company": null
-    },
-    {
       "login": "lw-lin",
       "name": "Liwei Lin",
       "avatar_url": "https://avatars.githubusercontent.com/u/15843379?v=4",
@@ -2873,6 +2860,19 @@
       "twitter_username": null,
       "blog": "https://github.com/lw-lin",
       "company": "Tencent"
+    },
+    {
+      "login": "cpuimage",
+      "name": "gaozhihan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25237152?v=4",
+      "html_url": "https://github.com/cpuimage",
+      "followers": 715,
+      "public_repos": 99,
+      "bio": "bathing in light like a tree.",
+      "location": "HangZhou, China",
+      "twitter_username": null,
+      "blog": "https://t.me/cpuimage",
+      "company": null
     },
     {
       "login": "youhunwl",
@@ -3647,7 +3647,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/35757455?v=4",
       "html_url": "https://github.com/chunmingwang",
       "followers": 665,
-      "public_repos": 138,
+      "public_repos": 139,
       "bio": null,
       "location": "Foshan City, Guangdong, China",
       "twitter_username": "chunming0205",
@@ -3679,19 +3679,6 @@
       "twitter_username": null,
       "blog": "https://www.linxingzhong.top",
       "company": null
-    },
-    {
-      "login": "7heaven",
-      "name": "7heaven",
-      "avatar_url": "https://avatars.githubusercontent.com/u/172270?v=4",
-      "html_url": "https://github.com/7heaven",
-      "followers": 664,
-      "public_repos": 133,
-      "bio": "\r\n    啊呜~\r\n",
-      "location": "Beijing, China",
-      "twitter_username": null,
-      "blog": "",
-      "company": "Alibaba"
     },
     {
       "login": "xlvector",
@@ -3731,6 +3718,19 @@
       "twitter_username": null,
       "blog": "",
       "company": null
+    },
+    {
+      "login": "7heaven",
+      "name": "7heaven",
+      "avatar_url": "https://avatars.githubusercontent.com/u/172270?v=4",
+      "html_url": "https://github.com/7heaven",
+      "followers": 663,
+      "public_repos": 133,
+      "bio": "\r\n    啊呜~\r\n",
+      "location": "Beijing, China",
+      "twitter_username": null,
+      "blog": "",
+      "company": "Alibaba"
     },
     {
       "login": "wendal",
@@ -4089,7 +4089,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/3538629?v=4",
       "html_url": "https://github.com/hailiang-wang",
       "followers": 644,
-      "public_repos": 1149,
+      "public_repos": 1150,
       "bio": "Build something users love.",
       "location": "Beijing, China",
       "twitter_username": null,
@@ -4279,19 +4279,6 @@
       "company": null
     },
     {
-      "login": "CasterWx",
-      "name": "AntzUhl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30624750?v=4",
-      "html_url": "https://github.com/CasterWx",
-      "followers": 634,
-      "public_repos": 119,
-      "bio": "Context is King.",
-      "location": "China",
-      "twitter_username": null,
-      "blog": "",
-      "company": "MeiTuan"
-    },
-    {
       "login": "liuhaoyang",
       "name": "Haoyang Liu",
       "avatar_url": "https://avatars.githubusercontent.com/u/10701915?v=4",
@@ -4303,6 +4290,19 @@
       "twitter_username": null,
       "blog": "",
       "company": "@apache"
+    },
+    {
+      "login": "CasterWx",
+      "name": "AntzUhl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30624750?v=4",
+      "html_url": "https://github.com/CasterWx",
+      "followers": 634,
+      "public_repos": 119,
+      "bio": "Context is King.",
+      "location": "China",
+      "twitter_username": null,
+      "blog": "",
+      "company": "MeiTuan"
     },
     {
       "login": "LiuLang",
@@ -4513,6 +4513,19 @@
       "company": "kuaishou.com"
     },
     {
+      "login": "onlytailei",
+      "name": "LEI TAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7247925?v=4",
+      "html_url": "https://github.com/onlytailei",
+      "followers": 627,
+      "public_repos": 26,
+      "bio": "Autonomous Driving Solutions\r\n",
+      "location": "China",
+      "twitter_username": null,
+      "blog": "http://onlytailei.github.io",
+      "company": null
+    },
+    {
       "login": "chengjun",
       "name": "Cheng-Jun Wang",
       "avatar_url": "https://avatars.githubusercontent.com/u/543384?v=4",
@@ -4539,16 +4552,16 @@
       "company": null
     },
     {
-      "login": "onlytailei",
-      "name": "LEI TAI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7247925?v=4",
-      "html_url": "https://github.com/onlytailei",
-      "followers": 626,
-      "public_repos": 26,
-      "bio": "Autonomous Driving Solutions\r\n",
+      "login": "Ackites",
+      "name": "Antkites",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91859281?v=4",
+      "html_url": "https://github.com/Ackites",
+      "followers": 627,
+      "public_repos": 7,
+      "bio": "No Code, Only Vibe",
       "location": "China",
-      "twitter_username": null,
-      "blog": "http://onlytailei.github.io",
+      "twitter_username": "actkites",
+      "blog": "",
       "company": null
     },
     {
@@ -4574,19 +4587,6 @@
       "bio": "life is still a struggle",
       "location": "Beijing,China",
       "twitter_username": null,
-      "blog": "",
-      "company": null
-    },
-    {
-      "login": "Ackites",
-      "name": "Antkites",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91859281?v=4",
-      "html_url": "https://github.com/Ackites",
-      "followers": 626,
-      "public_repos": 7,
-      "bio": "No Code, Only Vibe",
-      "location": "China",
-      "twitter_username": "actkites",
       "blog": "",
       "company": null
     },
@@ -4734,19 +4734,6 @@
       "company": null
     },
     {
-      "login": "chengdazhi",
-      "name": "Dazhi Cheng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10631563?v=4",
-      "html_url": "https://github.com/chengdazhi",
-      "followers": 616,
-      "public_repos": 26,
-      "bio": "Building AGI at Moonshot.ai. Previously building self-driving cars at Pony.ai. Former intern at Nuro, MSRA and Megvii. MSCS grad at CMU.",
-      "location": "Beijing, China",
-      "twitter_username": null,
-      "blog": "linkedin.com/in/chengdazhi/",
-      "company": "Moonshot.ai"
-    },
-    {
       "login": "hjzheng",
       "name": "HaoJu Zheng",
       "avatar_url": "https://avatars.githubusercontent.com/u/4166657?v=4",
@@ -4758,6 +4745,19 @@
       "twitter_username": null,
       "blog": "https://www.npmjs.com/~hjzheng",
       "company": null
+    },
+    {
+      "login": "chengdazhi",
+      "name": "Dazhi Cheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10631563?v=4",
+      "html_url": "https://github.com/chengdazhi",
+      "followers": 616,
+      "public_repos": 26,
+      "bio": "Building AGI at Moonshot.ai. Previously building self-driving cars at Pony.ai. Former intern at Nuro, MSRA and Megvii. MSCS grad at CMU.",
+      "location": "Beijing, China",
+      "twitter_username": null,
+      "blog": "linkedin.com/in/chengdazhi/",
+      "company": "Moonshot.ai"
     },
     {
       "login": "malinkang",
@@ -5124,19 +5124,6 @@
       "company": "dmall"
     },
     {
-      "login": "stilleshan",
-      "name": "Stille",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22582966?v=4",
-      "html_url": "https://github.com/stilleshan",
-      "followers": 598,
-      "public_repos": 11,
-      "bio": null,
-      "location": "Wuhan,China",
-      "twitter_username": "stilleshan",
-      "blog": "https://www.ioiox.com",
-      "company": null
-    },
-    {
       "login": "zhuzhaoyuan",
       "name": "Joshua Zhu",
       "avatar_url": "https://avatars.githubusercontent.com/u/74670?v=4",
@@ -5147,6 +5134,19 @@
       "location": "Hangzhou, China",
       "twitter_username": null,
       "blog": "",
+      "company": null
+    },
+    {
+      "login": "stilleshan",
+      "name": "Stille",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22582966?v=4",
+      "html_url": "https://github.com/stilleshan",
+      "followers": 598,
+      "public_repos": 11,
+      "bio": null,
+      "location": "Wuhan,China",
+      "twitter_username": "stilleshan",
+      "blog": "https://www.ioiox.com",
       "company": null
     },
     {
@@ -5631,19 +5631,6 @@
       "company": null
     },
     {
-      "login": "technologiclee",
-      "name": "Lee Nelson",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93859?v=4",
-      "html_url": "https://github.com/technologiclee",
-      "followers": 575,
-      "public_repos": 158,
-      "bio": null,
-      "location": "Shenzhen China",
-      "twitter_username": null,
-      "blog": "http://www.google.com/profiles/technologiclee",
-      "company": "looking for startups"
-    },
-    {
       "login": "CoderZhuXH",
       "name": "朱晓辉",
       "avatar_url": "https://avatars.githubusercontent.com/u/15043466?v=4",
@@ -5655,6 +5642,19 @@
       "twitter_username": null,
       "blog": "http://www.it7090.com",
       "company": "naner"
+    },
+    {
+      "login": "cofyc",
+      "name": "Yecheng Fu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91730?v=4",
+      "html_url": "https://github.com/cofyc",
+      "followers": 575,
+      "public_repos": 44,
+      "bio": "A coder, a runner, and a father.",
+      "location": "Shanghai, China",
+      "twitter_username": null,
+      "blog": "https://yechengfu.com/",
+      "company": null
     },
     {
       "login": "Evian-Zhang",
@@ -5670,17 +5670,17 @@
       "company": null
     },
     {
-      "login": "cofyc",
-      "name": "Yecheng Fu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/91730?v=4",
-      "html_url": "https://github.com/cofyc",
-      "followers": 575,
-      "public_repos": 44,
-      "bio": "A coder, a runner, and a father.",
-      "location": "Shanghai, China",
+      "login": "technologiclee",
+      "name": "Lee Nelson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93859?v=4",
+      "html_url": "https://github.com/technologiclee",
+      "followers": 574,
+      "public_repos": 158,
+      "bio": null,
+      "location": "Shenzhen China",
       "twitter_username": null,
-      "blog": "https://yechengfu.com/",
-      "company": null
+      "blog": "http://www.google.com/profiles/technologiclee",
+      "company": "looking for startups"
     },
     {
       "login": "Aaaaaaaty",
@@ -5852,19 +5852,6 @@
       "company": "@Bytedance, Ex @Alibaba"
     },
     {
-      "login": "zarathustr",
-      "name": "Jin Wu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15649421?v=4",
-      "html_url": "https://github.com/zarathustr",
-      "followers": 570,
-      "public_repos": 124,
-      "bio": "Full Professor, University of Science and Technology Beijing (北京科技大學). PhD in ECE, Hong Kong University of Science and Technology (香港科技大學)",
-      "location": "Hong Kong, China",
-      "twitter_username": null,
-      "blog": "zarathustr.github.io",
-      "company": "Hong Kong University of Science and Technology"
-    },
-    {
       "login": "chanjarster",
       "name": "Daniel Qian",
       "avatar_url": "https://avatars.githubusercontent.com/u/612413?v=4",
@@ -5902,6 +5889,19 @@
       "twitter_username": "penghuailiang",
       "blog": "https://huailiang.github.io",
       "company": "huawei - 2012Lab"
+    },
+    {
+      "login": "zarathustr",
+      "name": "Jin Wu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15649421?v=4",
+      "html_url": "https://github.com/zarathustr",
+      "followers": 569,
+      "public_repos": 124,
+      "bio": "Full Professor, University of Science and Technology Beijing (北京科技大學). PhD in ECE, Hong Kong University of Science and Technology (香港科技大學)",
+      "location": "Hong Kong, China",
+      "twitter_username": null,
+      "blog": "zarathustr.github.io",
+      "company": "Hong Kong University of Science and Technology"
     },
     {
       "login": "subframe7536",
@@ -6541,19 +6541,6 @@
       "company": null
     },
     {
-      "login": "zbbsdsb",
-      "name": "CeaserZhao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/99160798?v=4",
-      "html_url": "https://github.com/zbbsdsb",
-      "followers": 545,
-      "public_repos": 147,
-      "bio": "An insane dream builder from china",
-      "location": "Mianyang,china mainland",
-      "twitter_username": "ceaserzhao2024",
-      "blog": "https://ceaserlab.github.io",
-      "company": "Oasis company"
-    },
-    {
       "login": "qmwu2000",
       "name": "Frankie Wu",
       "avatar_url": "https://avatars.githubusercontent.com/u/2425471?v=4",
@@ -6565,6 +6552,19 @@
       "twitter_username": null,
       "blog": "",
       "company": "cat-next.com"
+    },
+    {
+      "login": "zbbsdsb",
+      "name": "CeaserZhao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99160798?v=4",
+      "html_url": "https://github.com/zbbsdsb",
+      "followers": 545,
+      "public_repos": 147,
+      "bio": "An insane dream builder from china",
+      "location": "Mianyang,china mainland",
+      "twitter_username": "ceaserzhao2024",
+      "blog": "https://ceaserlab.github.io",
+      "company": "Oasis company"
     },
     {
       "login": "fisker",
@@ -6788,6 +6788,19 @@
       "company": "@TikHub "
     },
     {
+      "login": "KevinZonda",
+      "name": "Xiang Shi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132228?v=4",
+      "html_url": "https://github.com/KevinZonda",
+      "followers": 537,
+      "public_repos": 73,
+      "bio": "ML @kigland | 25' @Imperial | 24' @BirminghamUni | ML/DL/CV/NLP | Go | python | INFP | ex. 抒发森林, CominApp, FastGit",
+      "location": "London, UK ↔ Suzhou, China",
+      "twitter_username": "toncoin_cn",
+      "blog": "kevinzonda.com",
+      "company": "@KIGLAND"
+    },
+    {
       "login": "FutunnOpen",
       "name": "FutunnOpen",
       "avatar_url": "https://avatars.githubusercontent.com/u/25790136?v=4",
@@ -6799,19 +6812,6 @@
       "twitter_username": null,
       "blog": "",
       "company": "Futu, Inc."
-    },
-    {
-      "login": "KevinZonda",
-      "name": "Xiang Shi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33132228?v=4",
-      "html_url": "https://github.com/KevinZonda",
-      "followers": 536,
-      "public_repos": 73,
-      "bio": "ML @kigland | 25' @Imperial | 24' @BirminghamUni | ML/DL/CV/NLP | Go | python | INFP | ex. 抒发森林, CominApp, FastGit",
-      "location": "London, UK ↔ Suzhou, China",
-      "twitter_username": "toncoin_cn",
-      "blog": "kevinzonda.com",
-      "company": "@KIGLAND"
     },
     {
       "login": "genedna",
@@ -7078,7 +7078,7 @@
       "name": "Percival Zheng",
       "avatar_url": "https://avatars.githubusercontent.com/u/147896059?v=4",
       "html_url": "https://github.com/Lafcadia",
-      "followers": 528,
+      "followers": 527,
       "public_repos": 91,
       "bio": "Self-Taught Programmer.\r\nPresident of the Team OblivionOcean. \r\n\r\nOriginal Account: @ChuishenX.",
       "location": "Hangzhou, China",
@@ -7802,6 +7802,19 @@
       "company": null
     },
     {
+      "login": "vilicvane",
+      "name": "vilicvane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/970430?v=4",
+      "html_url": "https://github.com/vilicvane",
+      "followers": 507,
+      "public_repos": 191,
+      "bio": "💡 Fight for the light of consciousness!",
+      "location": "Chengdu, China",
+      "twitter_username": "vilicvane",
+      "blog": "https://vane.life/",
+      "company": "Enverse"
+    },
+    {
       "login": "gigix",
       "name": "Jeff Xiong",
       "avatar_url": "https://avatars.githubusercontent.com/u/140960?v=4",
@@ -7813,19 +7826,6 @@
       "twitter_username": null,
       "blog": "http://gigix.thoughtworkers.org",
       "company": null
-    },
-    {
-      "login": "vilicvane",
-      "name": "vilicvane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/970430?v=4",
-      "html_url": "https://github.com/vilicvane",
-      "followers": 506,
-      "public_repos": 191,
-      "bio": "💡 Fight for the light of consciousness!",
-      "location": "Chengdu, China",
-      "twitter_username": "vilicvane",
-      "blog": "https://vane.life/",
-      "company": "Enverse"
     },
     {
       "login": "hanbt",
@@ -7936,7 +7936,7 @@
       "name": "Jackon Yang",
       "avatar_url": "https://avatars.githubusercontent.com/u/3008778?v=4",
       "html_url": "https://github.com/JackonYang",
-      "followers": 503,
+      "followers": 504,
       "public_repos": 22,
       "bio": "Python, NLP, Machine Learning",
       "location": "Shanghai, China",
@@ -8027,7 +8027,7 @@
       "name": "Crypto Michael",
       "avatar_url": "https://avatars.githubusercontent.com/u/470058?v=4",
       "html_url": "https://github.com/michaelliao",
-      "followers": 38662,
+      "followers": 38663,
       "public_repos": 120,
       "bio": "Crypto developer.",
       "location": "Beijing, China",
@@ -8053,7 +8053,7 @@
       "name": "程序员鱼皮",
       "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
       "html_url": "https://github.com/liyupi",
-      "followers": 24525,
+      "followers": 24527,
       "public_repos": 121,
       "bio": "speak less do more！前腾讯全栈开发，现科技公司创始人",
       "location": "China Shanghai",
@@ -8105,7 +8105,7 @@
       "name": "Fengda Huang",
       "avatar_url": "https://avatars.githubusercontent.com/u/472311?v=4",
       "html_url": "https://github.com/phodal",
-      "followers": 20831,
+      "followers": 20832,
       "public_repos": 390,
       "bio": "I'm digging holes.",
       "location": "Hangzhou, China",
@@ -8131,7 +8131,7 @@
       "name": "骆昊",
       "avatar_url": "https://avatars.githubusercontent.com/u/7474657?v=4",
       "html_url": "https://github.com/jackfrued",
-      "followers": 17378,
+      "followers": 17379,
       "public_repos": 150,
       "bio": "只有非常努力，才能看起来毫不费力！",
       "location": "Chengdu Sichuan, China",
@@ -8166,6 +8166,19 @@
       "company": null
     },
     {
+      "login": "onevcat",
+      "name": "Wei Wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1019875?v=4",
+      "html_url": "https://github.com/onevcat",
+      "followers": 15873,
+      "public_repos": 262,
+      "bio": "A creator creating for creators: thinking, building, evolving.",
+      "location": "Yokohama, Japan / China",
+      "twitter_username": "onevcat",
+      "blog": "https://onev.cat",
+      "company": "LINE Corp."
+    },
+    {
       "login": "lifesinger",
       "name": "lifesinger",
       "avatar_url": "https://avatars.githubusercontent.com/u/97227?v=4",
@@ -8177,19 +8190,6 @@
       "twitter_username": null,
       "blog": "",
       "company": null
-    },
-    {
-      "login": "onevcat",
-      "name": "Wei Wang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1019875?v=4",
-      "html_url": "https://github.com/onevcat",
-      "followers": 15871,
-      "public_repos": 262,
-      "bio": "A creator creating for creators: thinking, building, evolving.",
-      "location": "Yokohama, Japan / China",
-      "twitter_username": "onevcat",
-      "blog": "https://onev.cat",
-      "company": "LINE Corp."
     },
     {
       "login": "astaxie",
@@ -8261,7 +8261,7 @@
       "name": "Geer Sun",
       "avatar_url": "https://avatars.githubusercontent.com/u/26924670?v=4",
       "html_url": "https://github.com/sungeer",
-      "followers": 13995,
+      "followers": 14000,
       "public_repos": 29,
       "bio": "create tools for creators",
       "location": "Shanghai, China",
@@ -8313,7 +8313,7 @@
       "name": "EGOIST",
       "avatar_url": "https://avatars.githubusercontent.com/u/8784712?v=4",
       "html_url": "https://github.com/egoist",
-      "followers": 13432,
+      "followers": 13433,
       "public_repos": 824,
       "bio": "CEO of ChatWise.app",
       "location": "China",
@@ -8326,7 +8326,7 @@
       "name": "花裤衩",
       "avatar_url": "https://avatars.githubusercontent.com/u/8121621?v=4",
       "html_url": "https://github.com/PanJiaChen",
-      "followers": 13403,
+      "followers": 13404,
       "public_repos": 74,
       "bio": null,
       "location": "Shanghai, China",
@@ -8378,7 +8378,7 @@
       "name": "芋道源码",
       "avatar_url": "https://avatars.githubusercontent.com/u/2015545?v=4",
       "html_url": "https://github.com/YunaiV",
-      "followers": 12800,
+      "followers": 12801,
       "public_repos": 83,
       "bio": "愿半生编码，如一生老友！",
       "location": "Shanghai, China",
@@ -8443,7 +8443,7 @@
       "name": "Milo Yip",
       "avatar_url": "https://avatars.githubusercontent.com/u/1195774?v=4",
       "html_url": "https://github.com/miloyip",
-      "followers": 10765,
+      "followers": 10766,
       "public_repos": 29,
       "bio": null,
       "location": "Hong Kong, China",
@@ -8469,7 +8469,7 @@
       "name": "布客飞龙",
       "avatar_url": "https://avatars.githubusercontent.com/u/5080126?v=4",
       "html_url": "https://github.com/wizardforcel",
-      "followers": 10353,
+      "followers": 10352,
       "public_repos": 392,
       "bio": "掠夺·扩张·投机·博弈",
       "location": "Beijing, China",
@@ -8495,7 +8495,7 @@
       "name": "花叔",
       "avatar_url": "https://avatars.githubusercontent.com/u/127714341?v=4",
       "html_url": "https://github.com/alchaincyf",
-      "followers": 10040,
+      "followers": 10044,
       "public_repos": 85,
       "bio": "AI Native Coder. Ship products without writing code. Author of nuwa-skill · huashu-design · darwin-skill.",
       "location": "China",
@@ -8664,7 +8664,7 @@
       "name": "Alex Chi Z",
       "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
       "html_url": "https://github.com/skyzh",
-      "followers": 8435,
+      "followers": 8437,
       "public_repos": 127,
       "bio": "building database systems @databricks, previously @cmu-db; a bubble tea every day makes me happy right away",
       "location": "Bellevue, WA, USA ⇌ Shanghai, China",
@@ -8677,7 +8677,7 @@
       "name": "Coco",
       "avatar_url": "https://avatars.githubusercontent.com/u/8554143?v=4",
       "html_url": "https://github.com/chokcoco",
-      "followers": 8429,
+      "followers": 8430,
       "public_repos": 70,
       "bio": "国服第一切图仔",
       "location": "ShenZhen, China",
@@ -8717,7 +8717,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/533114?v=4",
       "html_url": "https://github.com/mercyblitz",
       "followers": 8080,
-      "public_repos": 79,
+      "public_repos": 80,
       "bio": "\r\n大家好，我是小马哥\r\n\r\n微信 : mercyblitz-1985\r\n\r\n\r\n",
       "location": "Hangzhou, China",
       "twitter_username": "mercyblitz",
@@ -8755,7 +8755,7 @@
       "name": "Yubo Liu",
       "avatar_url": "https://avatars.githubusercontent.com/u/2057443?v=4",
       "html_url": "https://github.com/liuyubobobo",
-      "followers": 7630,
+      "followers": 7631,
       "public_repos": 35,
       "bio": "持续学习者",
       "location": "USA / China",
@@ -8768,7 +8768,7 @@
       "name": "Amusi",
       "avatar_url": "https://avatars.githubusercontent.com/u/22436957?v=4",
       "html_url": "https://github.com/amusi",
-      "followers": 7544,
+      "followers": 7545,
       "public_repos": 255,
       "bio": "欢迎关注微信公众号: CVer，了解最新最前沿的AI/CV技术",
       "location": "Shanghai, China",
@@ -8872,7 +8872,7 @@
       "name": "Yaowei Zheng",
       "avatar_url": "https://avatars.githubusercontent.com/u/16256802?v=4",
       "html_url": "https://github.com/hiyouga",
-      "followers": 6680,
+      "followers": 6679,
       "public_repos": 65,
       "bio": "No code All live",
       "location": "Beijing, China",
@@ -8898,7 +8898,7 @@
       "name": "灵茶山艾府 [0x3F]",
       "avatar_url": "https://avatars.githubusercontent.com/u/7086966?v=4",
       "html_url": "https://github.com/EndlessCheng",
-      "followers": 6568,
+      "followers": 6569,
       "public_repos": 197,
       "bio": "透彻讲解算法，直击算法本质！欢迎关注 bilibili@灵茶山艾府",
       "location": "Hangzhou, China",
@@ -9128,6 +9128,19 @@
       "company": "NVIDIA"
     },
     {
+      "login": "tianyicui",
+      "name": "Tianyi Cui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53024?v=4",
+      "html_url": "https://github.com/tianyicui",
+      "followers": 5182,
+      "public_repos": 65,
+      "bio": null,
+      "location": "Beijing, China",
+      "twitter_username": "tianyi",
+      "blog": "",
+      "company": "@deepseek-ai "
+    },
+    {
       "login": "Dreamacro",
       "name": "Dreamacro",
       "avatar_url": "https://avatars.githubusercontent.com/u/8615343?v=4",
@@ -9139,19 +9152,6 @@
       "twitter_username": null,
       "blog": "",
       "company": null
-    },
-    {
-      "login": "tianyicui",
-      "name": "Tianyi Cui",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53024?v=4",
-      "html_url": "https://github.com/tianyicui",
-      "followers": 5180,
-      "public_repos": 65,
-      "bio": null,
-      "location": "Beijing, China",
-      "twitter_username": "tianyi",
-      "blog": "",
-      "company": "@deepseek-ai "
     },
     {
       "login": "hellokaton",
@@ -9210,7 +9210,7 @@
       "name": "smallnest",
       "avatar_url": "https://avatars.githubusercontent.com/u/865763?v=4",
       "html_url": "https://github.com/smallnest",
-      "followers": 5111,
+      "followers": 5112,
       "public_repos": 317,
       "bio": "技术图书和专栏作者，微服务框架https://rpcx.io 作者，https://se.rpcx.io AI时代的探索者",
       "location": "China",
@@ -9314,7 +9314,7 @@
       "name": "HE Shi-Jun",
       "avatar_url": "https://avatars.githubusercontent.com/u/159840?v=4",
       "html_url": "https://github.com/hax",
-      "followers": 4693,
+      "followers": 4692,
       "public_repos": 194,
       "bio": null,
       "location": "Shanghai, China",
@@ -9379,7 +9379,7 @@
       "name": "BaiFu",
       "avatar_url": "https://avatars.githubusercontent.com/u/110395318?v=4",
       "html_url": "https://github.com/666ghj",
-      "followers": 4465,
+      "followers": 4470,
       "public_repos": 9,
       "bio": "Do what you love, and love what you do.",
       "location": "Shanghai, China",
@@ -9509,7 +9509,7 @@
       "name": "Jimmy Song",
       "avatar_url": "https://avatars.githubusercontent.com/u/3328185?v=4",
       "html_url": "https://github.com/rootsongjc",
-      "followers": 4140,
+      "followers": 4139,
       "public_repos": 70,
       "bio": "VP of Open Source Ecosystem @dynamia-ai  | AI Native Infra | @cncf Ambassador ",
       "location": "Beijing, China",
@@ -9587,7 +9587,7 @@
       "name": "王浩",
       "avatar_url": "https://avatars.githubusercontent.com/u/8949716?v=4",
       "html_url": "https://github.com/bingoogolapple",
-      "followers": 3952,
+      "followers": 3951,
       "public_repos": 97,
       "bio": "个人微信号：shangdixiaozhushou\r\n微信公众号：上帝小助手",
       "location": "Chengdu, China",
@@ -10168,6 +10168,19 @@
       "company": "Southern Medical University"
     },
     {
+      "login": "lijigang",
+      "name": "lijigang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4835998?v=4",
+      "html_url": "https://github.com/lijigang",
+      "followers": 3128,
+      "public_repos": 30,
+      "bio": "Read → Think → Write → Publish\t",
+      "location": "Beijing, China",
+      "twitter_username": null,
+      "blog": "http://www.lijigang.com/",
+      "company": null
+    },
+    {
       "login": "orangepi-xunlong",
       "name": "Orange Pi",
       "avatar_url": "https://avatars.githubusercontent.com/u/10287101?v=4",
@@ -10179,19 +10192,6 @@
       "twitter_username": null,
       "blog": "http://www.orangepi.org",
       "company": "Shenzhen Xunlong Software CO.,Limited"
-    },
-    {
-      "login": "lijigang",
-      "name": "lijigang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4835998?v=4",
-      "html_url": "https://github.com/lijigang",
-      "followers": 3127,
-      "public_repos": 30,
-      "bio": "Read → Think → Write → Publish\t",
-      "location": "Beijing, China",
-      "twitter_username": null,
-      "blog": "http://www.lijigang.com/",
-      "company": null
     },
     {
       "login": "djyde",
@@ -10237,7 +10237,7 @@
       "name": "EvilChen",
       "avatar_url": "https://avatars.githubusercontent.com/u/24655118?v=4",
       "html_url": "https://github.com/gh0stkey",
-      "followers": 3059,
+      "followers": 3060,
       "public_repos": 14,
       "bio": "(ATT&DEF)er",
       "location": "China",
@@ -10259,19 +10259,6 @@
       "company": null
     },
     {
-      "login": "lanxuezaipiao",
-      "name": "敏敏Alexia",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5576781?v=4",
-      "html_url": "https://github.com/lanxuezaipiao",
-      "followers": 3029,
-      "public_repos": 52,
-      "bio": "目前在阿里巴巴淘宝做java开发",
-      "location": "China",
-      "twitter_username": null,
-      "blog": "http://blog.csdn.net/lanxuezaipiao/",
-      "company": "ustc(University of Science and Technology of China)"
-    },
-    {
       "login": "summerblue",
       "name": "Summer",
       "avatar_url": "https://avatars.githubusercontent.com/u/324764?v=4",
@@ -10283,6 +10270,19 @@
       "twitter_username": null,
       "blog": "https://learnku.com",
       "company": "灵智天成"
+    },
+    {
+      "login": "lanxuezaipiao",
+      "name": "敏敏Alexia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5576781?v=4",
+      "html_url": "https://github.com/lanxuezaipiao",
+      "followers": 3029,
+      "public_repos": 52,
+      "bio": "目前在阿里巴巴淘宝做java开发",
+      "location": "China",
+      "twitter_username": null,
+      "blog": "http://blog.csdn.net/lanxuezaipiao/",
+      "company": "ustc(University of Science and Technology of China)"
     },
     {
       "login": "aceld",
@@ -11134,7 +11134,7 @@
       "name": "jingyaogong",
       "avatar_url": "https://avatars.githubusercontent.com/u/62287848?v=4",
       "html_url": "https://github.com/jingyaogong",
-      "followers": 2297,
+      "followers": 2299,
       "public_repos": 12,
       "bio": "无限进步",
       "location": "China",
@@ -11806,6 +11806,19 @@
       "company": null
     },
     {
+      "login": "Jannchie",
+      "name": "Jianqi Pan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29743310?v=4",
+      "html_url": "https://github.com/Jannchie",
+      "followers": 1921,
+      "public_repos": 255,
+      "bio": "Non-indie developer. \r\nPassionate about programming.\r\nA Mediator (INFP).",
+      "location": "Japan, Tokyo ⇄ China, Shanghai",
+      "twitter_username": "jannchie",
+      "blog": "https://jannchie.com",
+      "company": "Preferred Networks Inc."
+    },
+    {
       "login": "monkeyWie",
       "name": "Levi",
       "avatar_url": "https://avatars.githubusercontent.com/u/13160176?v=4",
@@ -11817,19 +11830,6 @@
       "twitter_username": "Levi2RICH",
       "blog": "https://monkeywie.cn",
       "company": null
-    },
-    {
-      "login": "Jannchie",
-      "name": "Jianqi Pan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29743310?v=4",
-      "html_url": "https://github.com/Jannchie",
-      "followers": 1919,
-      "public_repos": 255,
-      "bio": "Non-indie developer. \r\nPassionate about programming.\r\nA Mediator (INFP).",
-      "location": "Japan, Tokyo ⇄ China, Shanghai",
-      "twitter_username": "jannchie",
-      "blog": "https://jannchie.com",
-      "company": "Preferred Networks Inc."
     },
     {
       "login": "bigwhite",
@@ -11966,7 +11966,7 @@
       "name": "z3r0yu",
       "avatar_url": "https://avatars.githubusercontent.com/u/16551733?v=4",
       "html_url": "https://github.com/zer0yu",
-      "followers": 1875,
+      "followers": 1874,
       "public_repos": 80,
       "bio": "BugHunter@OverSpace /\r\nRedTeamer@PolarisLab / \r\nCTFer@kn0ck",
       "location": "Singapore / China",
@@ -12239,7 +12239,7 @@
       "name": "Ziming Liu",
       "avatar_url": "https://avatars.githubusercontent.com/u/23551623?v=4",
       "html_url": "https://github.com/KindXiaoming",
-      "followers": 1751,
+      "followers": 1752,
       "public_repos": 37,
       "bio": "Assistant Professor @ Tsinghua CollegeAI. Previously, Postdoc @ Stanford University, PhD @ MIT, BS @ Peking University",
       "location": "Beijing, China",
@@ -12707,7 +12707,7 @@
       "name": "Wenlu Wang",
       "avatar_url": "https://avatars.githubusercontent.com/u/6831019?v=4",
       "html_url": "https://github.com/Kingwl",
-      "followers": 1566,
+      "followers": 1565,
       "public_repos": 211,
       "bio": "😯",
       "location": "China",
@@ -12872,24 +12872,11 @@
       "company": null
     },
     {
-      "login": "yangwenmai",
-      "name": "maiyang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1710912?v=4",
-      "html_url": "https://github.com/yangwenmai",
-      "followers": 1520,
-      "public_repos": 202,
-      "bio": "Gopher, Rustacean, CloudNative, DevOps, Blockchain.\r\nCreator of Go 夜读",
-      "location": "Shenzhen, China",
-      "twitter_username": "talkgo_night",
-      "blog": "https://maiyang.me",
-      "company": null
-    },
-    {
       "login": "bestony",
       "name": "白宦成",
       "avatar_url": "https://avatars.githubusercontent.com/u/13283837?v=4",
       "html_url": "https://github.com/bestony",
-      "followers": 1519,
+      "followers": 1520,
       "public_repos": 169,
       "bio": "Ultimate Engineer",
       "location": "Tianjin，China",
@@ -12898,11 +12885,24 @@
       "company": null
     },
     {
+      "login": "yangwenmai",
+      "name": "maiyang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1710912?v=4",
+      "html_url": "https://github.com/yangwenmai",
+      "followers": 1519,
+      "public_repos": 202,
+      "bio": "Gopher, Rustacean, CloudNative, DevOps, Blockchain.\r\nCreator of Go 夜读",
+      "location": "Shenzhen, China",
+      "twitter_username": "talkgo_night",
+      "blog": "https://maiyang.me",
+      "company": null
+    },
+    {
       "login": "ZigaoWang",
       "name": "Zigao Wang",
       "avatar_url": "https://avatars.githubusercontent.com/u/102006756?v=4",
       "html_url": "https://github.com/ZigaoWang",
-      "followers": 1516,
+      "followers": 1515,
       "public_repos": 178,
       "bio": "Student developer and maker in Shanghai.",
       "location": "Shanghai, China",
@@ -13847,6 +13847,19 @@
       "company": "休息"
     },
     {
+      "login": "whyour",
+      "name": "whyour",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22700758?v=4",
+      "html_url": "https://github.com/whyour",
+      "followers": 1322,
+      "public_repos": 49,
+      "bio": "A common front-end developer.",
+      "location": "Beijing, China",
+      "twitter_username": null,
+      "blog": "https://whyour.cn",
+      "company": null
+    },
+    {
       "login": "MathFoundationRL",
       "name": "Shiyu Zhao",
       "avatar_url": "https://avatars.githubusercontent.com/u/110452525?v=4",
@@ -13871,19 +13884,6 @@
       "twitter_username": "chenzhening",
       "blog": "https://czn6.github.io",
       "company": "@alibaba"
-    },
-    {
-      "login": "whyour",
-      "name": "whyour",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22700758?v=4",
-      "html_url": "https://github.com/whyour",
-      "followers": 1321,
-      "public_repos": 49,
-      "bio": "A common front-end developer.",
-      "location": "Beijing, China",
-      "twitter_username": null,
-      "blog": "https://whyour.cn",
-      "company": null
     },
     {
       "login": "xingrz",
@@ -14406,19 +14406,6 @@
       "company": "美团"
     },
     {
-      "login": "lipengzhou",
-      "name": "LPZ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23165266?v=4",
-      "html_url": "https://github.com/lipengzhou",
-      "followers": 1219,
-      "public_repos": 53,
-      "bio": "hello world",
-      "location": "Beijing, China",
-      "twitter_username": null,
-      "blog": "",
-      "company": null
-    },
-    {
       "login": "anjoy8",
       "name": "ansonzhang",
       "avatar_url": "https://avatars.githubusercontent.com/u/28941816?v=4",
@@ -14432,11 +14419,24 @@
       "company": "laozhang@azlinli.com"
     },
     {
+      "login": "lipengzhou",
+      "name": "LPZ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23165266?v=4",
+      "html_url": "https://github.com/lipengzhou",
+      "followers": 1218,
+      "public_repos": 53,
+      "bio": "hello world",
+      "location": "Beijing, China",
+      "twitter_username": null,
+      "blog": "",
+      "company": null
+    },
+    {
       "login": "Freelander",
       "name": "高军 (GoJun)",
       "avatar_url": "https://avatars.githubusercontent.com/u/10611037?v=4",
       "html_url": "https://github.com/Freelander",
-      "followers": 1212,
+      "followers": 1213,
       "public_repos": 51,
       "bio": "Developer",
       "location": "Guangzhou, China",
@@ -14497,6 +14497,19 @@
       "company": "@coding-and-typing"
     },
     {
+      "login": "fangjian0423",
+      "name": "Jimmy Fang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5254035?v=4",
+      "html_url": "https://github.com/fangjian0423",
+      "followers": 1197,
+      "public_repos": 116,
+      "bio": "Engineer.\r\nAuthor of 《深入理解 Spring Cloud 与实战》🔥🔥.\r\n@apache RocketMQ Committer 🚀🚀.",
+      "location": "Hangzhou, China",
+      "twitter_username": null,
+      "blog": "http://fangjian0423.github.io/",
+      "company": "@apache"
+    },
+    {
       "login": "liu21st",
       "name": "ThinkPHP",
       "avatar_url": "https://avatars.githubusercontent.com/u/1111670?v=4",
@@ -14508,19 +14521,6 @@
       "twitter_username": null,
       "blog": "http://thinkphp.cn",
       "company": "TOPThink"
-    },
-    {
-      "login": "fangjian0423",
-      "name": "Jimmy Fang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5254035?v=4",
-      "html_url": "https://github.com/fangjian0423",
-      "followers": 1196,
-      "public_repos": 116,
-      "bio": "Engineer.\r\nAuthor of 《深入理解 Spring Cloud 与实战》🔥🔥.\r\n@apache RocketMQ Committer 🚀🚀.",
-      "location": "Hangzhou, China",
-      "twitter_username": null,
-      "blog": "http://fangjian0423.github.io/",
-      "company": "@apache"
     },
     {
       "login": "xiaoluoboding",
@@ -14562,6 +14562,19 @@
       "company": null
     },
     {
+      "login": "TonyCrane",
+      "name": "TonyCrane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44120331?v=4",
+      "html_url": "https://github.com/TonyCrane",
+      "followers": 1185,
+      "public_repos": 43,
+      "bio": "Postgraduate@ZJU / DevOps@AAA / CTFer@AAA / Modder@MC",
+      "location": "Hangzhou, China",
+      "twitter_username": null,
+      "blog": "https://tonycrane.cc/",
+      "company": "Zhejiang University"
+    },
+    {
       "login": "h2pl",
       "name": "程序员江湖",
       "avatar_url": "https://avatars.githubusercontent.com/u/20679558?v=4",
@@ -14573,19 +14586,6 @@
       "twitter_username": null,
       "blog": "https://github.com/h2pl",
       "company": "HUST"
-    },
-    {
-      "login": "TonyCrane",
-      "name": "TonyCrane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44120331?v=4",
-      "html_url": "https://github.com/TonyCrane",
-      "followers": 1184,
-      "public_repos": 43,
-      "bio": "Postgraduate@ZJU / DevOps@AAA / CTFer@AAA / Modder@MC",
-      "location": "Hangzhou, China",
-      "twitter_username": null,
-      "blog": "https://tonycrane.cc/",
-      "company": "Zhejiang University"
     },
     {
       "login": "pezy",
@@ -15173,19 +15173,6 @@
       "company": "UCAS Master"
     },
     {
-      "login": "KCblama19",
-      "name": "Abraham K Blama",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98319416?v=4",
-      "html_url": "https://github.com/KCblama19",
-      "followers": 1083,
-      "public_repos": 44,
-      "bio": "Full-Stack developer | Software Engineer | Passion for Backend Development. ",
-      "location": "Shanxi, China",
-      "twitter_username": null,
-      "blog": "",
-      "company": null
-    },
-    {
       "login": "Kensuke-Hinata",
       "name": "ypcpy",
       "avatar_url": "https://avatars.githubusercontent.com/u/2363671?v=4",
@@ -15222,6 +15209,19 @@
       "location": "Beijing,China",
       "twitter_username": "SocialSisterYi",
       "blog": "https://shakaianee.top",
+      "company": null
+    },
+    {
+      "login": "KCblama19",
+      "name": "Abraham K Blama",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98319416?v=4",
+      "html_url": "https://github.com/KCblama19",
+      "followers": 1082,
+      "public_repos": 44,
+      "bio": "Full-Stack developer | Software Engineer | Passion for Backend Development. ",
+      "location": "Shanxi, China",
+      "twitter_username": null,
+      "blog": "",
       "company": null
     },
     {
@@ -15814,7 +15814,7 @@
       "name": "xiaolai",
       "avatar_url": "https://avatars.githubusercontent.com/u/152970?v=4",
       "html_url": "https://github.com/xiaolai",
-      "followers": 23582,
+      "followers": 23585,
       "public_repos": 257,
       "bio": "A lifelong student.",
       "location": "beijing",
@@ -15853,7 +15853,7 @@
       "name": "歸藏",
       "avatar_url": "https://avatars.githubusercontent.com/u/13505770?v=4",
       "html_url": "https://github.com/op7418",
-      "followers": 4853,
+      "followers": 4854,
       "public_repos": 31,
       "bio": "产品设计师🎨\r\nAI画图工具操作员🔧\r\nAI课程撰写与信息收集整理📰\r\n致力于发掘借助AI工具改善设计与产品开发流程的各种可能性🤔",
       "location": "beijing",
@@ -17271,7 +17271,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/23348551?v=4",
       "html_url": "https://github.com/itgoyo",
       "followers": 1945,
-      "public_repos": 834,
+      "public_repos": 833,
       "bio": "Don't be a programmer，Be a problem solver.",
       "location": "ShenZhen",
       "twitter_username": "itgoyo",
