@@ -1,6 +1,7 @@
 ---
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
+import '../styles/tailwind.css';
 import '../styles/mobile-optimizations.css';
 
 interface Props {
@@ -8,11 +9,6 @@ interface Props {
 }
 
 const { title = "中国区 GitHub 用户排行榜" } = Astro.props;
-
-// Rybbit 配置
-const rybbitSiteId = import.meta.env.PUBLIC_RYBBIT_SITE_ID;
-const rybbitHost = import.meta.env.PUBLIC_RYBBIT_HOST || "https://app.rybbit.io";
-const rybbitScriptSrc = `${rybbitHost}/api/script.js`;
 ---
 
 <!DOCTYPE html>
@@ -44,14 +40,6 @@ const rybbitScriptSrc = `${rybbitHost}/api/script.js`;
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-		
-		{rybbitSiteId && (
-			<script
-				src={rybbitScriptSrc}
-				data-site-id={rybbitSiteId}
-				defer
-			></script>
-		)}
 	</head>
 	<body class="bg-vscode-bg text-vscode-text min-h-screen flex flex-col relative">
 		<!-- 顶部彩色条 -->

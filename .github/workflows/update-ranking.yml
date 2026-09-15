@@ -6,58 +6,41 @@ on:
     - cron: "0 19 * * *"
   workflow_dispatch: # 允许手动触发
 
+permissions: {}
+
 jobs:
   update-ranking:
     runs-on: ubuntu-latest
-    permissions: # Job-level permissions configuration starts here
-      contents: write # 'write' access to repository contents
-      pull-requests: write # 'write' access to pull requests
+    permissions:
+      contents: write # 提交并推送数据文件
     steps:
       - name: 检出代码
-        uses: actions/checkout@v3
-
-      - name: 设置 Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: 安装 pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-          run_install: false
+        uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
 
-      - name: 获取 pnpm 存储目录
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-      - name: 设置 pnpm 缓存
-        uses: actions/cache@v3
+      - name: 设置 Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+          node-version: 24
+          cache: pnpm
 
       - name: 安装依赖
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: 抓取 GitHub 用户数据
         env:
           GITHUB_TOKEN: ${{ secrets.FETCH_TOKEN }}
         run: pnpm run fetch-data
 
-      - name: 提交更新数据
+      - name: 提交并推送更新数据
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add public/data/github-ranking.json
-          git commit -m "更新: GitHub 中国区用户排行榜数据 [skip ci]" || echo "没有更新"
-
-      - name: 推送更新
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.REPO_TOKEN }}
-          branch: main
-          force_with_lease: true
+          if git commit -m "更新: GitHub 中国区用户排行榜数据 [skip ci]"; then
+            git push origin HEAD:main
+          else
+            echo "没有更新"
+          fi

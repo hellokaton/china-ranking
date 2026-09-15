@@ -32,8 +32,8 @@
 
 ### 前置条件
 
-- Node.js >= 18.x
-- pnpm >= 8.x
+- Node.js >= 22.12
+- pnpm >= 10.x
 - GitHub API Token (用于数据获取)
 
 ### 安装步骤
@@ -51,26 +51,19 @@ cd china-ranking
 pnpm install
 ```
 
-3. 配置环境变量:
-
-```bash
-cp .env.example .env.local
-# 编辑 .env.local 添加你的 GitHub Token
-```
-
-4. 启动开发服务器:
+3. 启动开发服务器:
 
 ```bash
 pnpm dev
 ```
 
-5. 构建生产版本:
+4. 构建生产版本:
 
 ```bash
 pnpm build
 ```
 
-6. 预览生产构建:
+5. 预览生产构建:
 
 ```bash
 pnpm preview

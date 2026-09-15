@@ -1,5 +1,6 @@
 // 加载 GitHub 用户排行数据
 import { markdownDevelopers } from "@/utils/markdown-developers.ts";
+import rankingData from "../../public/data/github-ranking.json";
 
 export interface GitHubUser {
   login: string;
@@ -29,16 +30,7 @@ export async function getRankingData(type: DeveloperType = "all"): Promise<{
   developers: GitHubUser[];
 }> {
   try {
-    // 使用绝对URL路径或使用import.meta.env.BASE_URL构建完整URL
-    const response = await fetch(
-      `${import.meta.env.SITE}/data/github-ranking.json`
-    );
-
-    if (!response.ok) {
-      throw new Error(`获取数据失败: ${response.statusText}`);
-    }
-
-    const data: RankingData = await response.json();
+    const data = rankingData as RankingData;
 
     // 按类型过滤开发者
     let filteredDevelopers = data.developers;
